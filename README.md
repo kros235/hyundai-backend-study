@@ -64,3 +64,40 @@
 - 논리 연산자로 복잡한 조건을 간결하게 표현 가능
 - switch 문은 break 누락 시 fall-through 발생 주의
 - 조건문 중첩 시 가독성을 위한 적절한 들여쓰기 중요
+
+## Day 04 (2025-07-05) - 반복문 (Loop) ✅
+
+### 학습 내용
+- **for문**: 초기화, 조건식, 증감식을 이용한 반복 처리
+- **while문**: 조건이 참인 동안 반복 실행
+- **do-while문**: 최소 1번은 실행하는 반복문
+- **중첩 반복문**: 반복문 안의 반복문으로 복잡한 패턴 구현
+- **반복문 제어**: break(반복 중단), continue(현재 반복 건너뛰기)
+
+### 주요 개념
+- for문 구조: `for (초기화; 조건식; 증감식) { 실행문 }`
+- while문 구조: `while (조건식) { 실행문 }`
+- do-while 구조: `do { 실행문 } while (조건식);`
+- 향상된 for문: `for (타입 변수 : 배열) { 실행문 }`
+- 라벨을 이용한 중첩 반복문 제어
+
+### 실습 파일
+- `day04/Lessons/ForLoopExample.java`: for문 다양한 활용법
+- `day04/Lessons/WhileLoopExample.java`: while/do-while문 실습
+- `day04/Lessons/NestedLoopExample.java`: 중첩 반복문과 제어문
+- `day04/Quiz/LoopQuiz.java`: 반복문 퀴즈 (4문제)
+- `day04/Project/CarInventorySystem.java`: 차량 재고 관리 시스템
+
+### 핵심 포인트
+- 무한 루프를 방지하기 위한 종료 조건 설정 중요
+- break는 반복문 전체 종료, continue는 현재 반복만 건너뛰기
+- 중첩 반복문에서 외부 루프 제어시 라벨 사용
+- 배열과 함께 사용할 때 인덱스 범위 주의 (0부터 시작)
+- 실무에서는 향상된 for문(for-each)을 많이 활용
+
+### 실무 활용 예시
+- 데이터베이스 조회 결과 처리
+- 배열/리스트 순회
+- 메뉴 시스템 구현
+- 사용자 입력 검증
+- 파일 데이터 처리
