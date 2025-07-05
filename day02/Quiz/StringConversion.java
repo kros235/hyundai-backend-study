@@ -1,3 +1,4 @@
+package Quiz;
 public class StringConversion{
     public static void main(String[] args){
         String strYear  =   "2025";

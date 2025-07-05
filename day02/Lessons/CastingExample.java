@@ -1,3 +1,4 @@
+package Lessons;
 public class CastingExample{
     public static void main(String[] agrs){
         System.out.println("=== 형변환 실습 ===");

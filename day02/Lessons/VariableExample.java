@@ -1,3 +1,4 @@
+package Lessons;
 public class VariableExample{
     public static void main(String[] args){
         

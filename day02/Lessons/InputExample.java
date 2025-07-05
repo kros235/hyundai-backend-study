@@ -1,3 +1,4 @@
+package Lessons;
 import java.util.Scanner;   //  Scanner 클래스 import
 
 public class InputExample{

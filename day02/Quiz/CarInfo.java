@@ -1,3 +1,4 @@
+package Quiz;
 public class CarInfo{
     public static void main(String[] args){
         String carName          =   "아이오닉6";
